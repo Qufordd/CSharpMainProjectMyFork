@@ -26,4 +26,6 @@ public class EnterPoint : MonoBehaviour
 /*/а?
 ??
 /*/
+//Тест тест
+
 
