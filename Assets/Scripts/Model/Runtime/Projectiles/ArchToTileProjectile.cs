@@ -26,13 +26,13 @@ namespace Model.Runtime.Projectiles
             float localHeight = 0f;
             float totalDistance = _totalDistance;
 
-            float maxHeight = totalDistance * 0.60f;
+            float maxheight = totalDistance * 0.60f;
             /*/ указал максимальную высоту по формуле которая на сайте float b = a * 0,34f 
              * вот другая если не подойдет
              * float maxHeight = (totalDistance * 100)*60
              /*/
 
-            float localheight = maxHeight * (-(t * 2 - 1) * (t * 2 - 1) + 1);
+             localHeight = maxheight * (-(t * 2 - 1) * (t * 2 - 1) + 1);
             // я надеюсь формулу не надо расписывать и не надо ставить f в конце, потому что выдает ошибку. 
 
            
