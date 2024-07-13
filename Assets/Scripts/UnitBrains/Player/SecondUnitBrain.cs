@@ -62,7 +62,7 @@ namespace UnitBrains.Player
                     closestTarget = target;
                 }
             }
-            while (result.Count >= 1)
+            if (minTarget != float.MaxValue)
             {
                 
                 result.Clear();
